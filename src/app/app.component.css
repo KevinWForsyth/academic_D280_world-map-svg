@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.white-space {
+  height: 20px;
+  background-color: white;
+}
+
+.title-bar {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  background-color: rgb(204, 0, 82);
+  color: black;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.globe-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  overflow: auto;
+  padding-top: 40px;
+}
+
+.svgMapCol {
+  flex: 2;
+  overflow: hidden;
+  height: calc(100vh - 80px);
+}
+
+.svgMapCol app-zy-svg-map {
+  width: 100%;
+  height: 100%;
+}
+
+.infoCardCol {
+  flex: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  height: calc(100vh - 80px);
+  overflow: auto;
+}
+
+.CountyInfoCard {
+  background-color: #f9eed8;
+  padding: 15px;
+  margin: 20px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.country-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(139, 0, 0);
+  margin-bottom: 10px;
+}
+
+ul {
+  color: rgb(0, 0, 139);
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+ul li:before {
+  content: '\2022';
+  color: rgb(0, 0, 139);
+  font-size: 1.2em;
+  margin-right: 0.5em;
+}
+
+ul li strong {
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+
+@media (max-width: 1024px) {
+  .content {
+      flex-direction: column;
+      overflow: visible;
+  }
+
+  .infoCardCol {
+      flex: 1;
+      margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .title-bar {
+      position: absolute;
+  }
+
+  .container {
+      padding-top: 40px;
+  }
+
+  .content {
+      padding-top: 60px;
+  }
+
+  .infoCardCol {
+      margin-left: 20px;
+  }
+}

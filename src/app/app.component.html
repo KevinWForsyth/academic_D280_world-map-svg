@@ -1,0 +1,18 @@
+<div class="title-bar">
+  <!--globe-america.ng from https://www.pngegg.com/en/png-hsoyn credit pngegg.com -->
+  <img src="assets/globe-america.png" alt="Globe Icon" class="globe-icon">
+  <div class="title">Map</div>
+</div>
+
+<div class="container">  
+  <div class="content">    
+    <div class="svgMapCol">
+      <app-zy-svg-map (countryHovered)="onCountryHovered($event)"></app-zy-svg-map>
+    </div>
+    <div class="infoCardCol">
+      <app-zy-info-card></app-zy-info-card>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

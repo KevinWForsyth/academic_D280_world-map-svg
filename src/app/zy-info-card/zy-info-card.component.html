@@ -1,0 +1,12 @@
+<div class="CountyInfoCard">
+  <div class="country-name">
+    {{ countryInfo ? countryInfo.name : 'Country Data' }}
+  </div>
+  <ul>
+    <li><strong>Capital:</strong> {{ countryInfo ? countryInfo.capital : 'Click the area on the map' }}</li>
+    <li><strong>Region:</strong> {{ countryInfo ? countryInfo.region : '' }}</li>
+    <li><strong>Income:</strong> {{ countryInfo ? countryInfo.income : '' }}</li>
+    <li><strong>Longitude:</strong> {{ countryInfo ? countryInfo.longitude : '' }}</li>
+    <li><strong>Latitude:</strong> {{ countryInfo ? countryInfo.latitude : '' }}</li>
+  </ul>
+</div>
