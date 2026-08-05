@@ -25,3 +25,20 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+# D280 - JavaScript Programming
+
+WGU coursework. Interactive world map.
+
+**https://kevinwforsyth.github.io/academic_D280_world-map-svg**
+
+An Angular single-page application rendering an interactive SVG world map,
+built to demonstrate component architecture, event handling, and scalable
+vector graphics.
+
+**Built with:** Angular 18, TypeScript, SVG, HTML, CSS
+
+**Note:** The `/docs` folder contains the compiled production build, committed
+so GitHub Pages can serve the application without a build pipeline.
+
+**Status:** Archived academic work. Preserved as submitted, not maintained.
