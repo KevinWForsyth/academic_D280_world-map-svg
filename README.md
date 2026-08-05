@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+# D280 - JavaScript Programming
+
+WGU coursework. Interactive world map.
+
+An SVG world map with interactive regions, built to demonstrate DOM
+manipulation, event handling, and scalable vector graphics.
+
+**Built with:** JavaScript, SVG, HTML, CSS
+
+**Status:** Archived academic work. Preserved as submitted, not maintained.
